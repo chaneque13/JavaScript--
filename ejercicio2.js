@@ -4,7 +4,7 @@ Si los numeros no son un numero o menores, o iguales a 0, nos lo vuelva a pedir
 
 var a = prompt("Introduce un valor: ");
 var b = prompt("Introduce otro valor: ");
-if(isNaN(a) || isNaN(b)){
+if(isNaN(a) || isNaN(b) || a<=0 || b<=0){
 
     alert("No es un numero, empieza de nuevo");
     a = prompt("Introduce un valor: ");
